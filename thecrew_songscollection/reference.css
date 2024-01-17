@@ -1,0 +1,46 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("Cloud.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#title {
+    font-weight: bold;
+    font-size: xx-large;
+    color: black;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: fit-content;
+    border: 15px solid darkgray;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+#important {
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#topcontainer, #container, #bottomContainer {
+    background-color: rgba(32, 41, 61, 0.8);
+    color: white;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+#center {
+    text-align: center;
+}
+
+#smallPadding {
+    padding: 5px;
+}

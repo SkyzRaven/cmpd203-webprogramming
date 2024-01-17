@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="reference.css">
+        <title>the Crew Song Collection</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-image: url('Cloud.jpg');
+                background-size: cover;
+                margin: 0;
+                padding: 0;
+                line-height: 1.6em;
+            }
+            #container {
+                background-color: rgba(0, 0, 0, 0.295);
+                margin: auto;
+                width: 30%; /* Smaller box */
+                padding: 20px;
+                border-radius: 10px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            label {
+                display: block;
+                font-weight: bold;
+            }
+            input[type="text"], input[type="password"] {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+            input[type="submit"], input[type="reset"] {
+                width: 100%;
+                background-color: #4CAF50;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+            input[type="submit"]:hover, input[type="reset"]:hover {
+                background-color: #45a049;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <h2>the Crew Song Collection</h2>
+            <p>Enter your user ID & password :</p>
+            
+            <form name="loginForm" action="loginVerify.php" method="POST">
+                <label for="Username">Username</label>
+                <input type="text" id="Username" name="Username" maxlength="30" required><br><br>
+
+                <label for="Password">Password</label>
+                <input type="password" id="Password" name="userPassword" maxlength="18" required><br><br>
+
+                <input type="reset" value="Cancel">
+
+                <input type="submit" value="Login">
+            </form>
+            <center>
+                <br>
+                <br>
+                <a href="index.html"><button>Return To Index</button></a>
+            </center>
+        </div>
+    </body>
+</html>
